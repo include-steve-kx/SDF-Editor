@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+}
+
+#top-left-panel {
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.add-sdf-button {
+    width: 60px;
+    height: 60px;
+    background-color: rgba(200, 202, 210, 50%);
+    backdrop-filter: blur(4px);
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: background-color 0.3s;
+}
+.add-sdf-button:hover {
+    background-color: dodgerblue;
+}
+.add-sdf-icon {
+    width: 30px;
+    height: 30px;
+}
+
+
+#bottom-left-panel {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+
+
+#bottom-right-panel {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+
+
+#right-panel {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 10px;
+    color: rgb(61, 63, 64);
+}
+
+#sdf-info-container {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    min-width: 300px;
+    background-color: rgba(200, 202, 210, 50%);
+    backdrop-filter: blur(4px);
+    padding: 5px;
+}
+.sdf-info-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px;
+}
+.sdf-info-inputs {
+    display: flex;
+    gap: 5px;
+}
+.sdf-info-input {
+    color: rgb(61, 63, 64);
+    width: 40px;
+    text-align: right;
+    border-radius: 5px;
+    border-color: transparent;
+}
