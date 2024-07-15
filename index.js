@@ -1,5 +1,5 @@
 import * as THREE from 'three';
-import { OrbitControls } from "three/addons";
+import { OrbitControls } from "./node_modules/three/examples/jsm/controls/OrbitControls.js";
 import { TransformControls } from "./src/TransformControls.js";
 import {vsNormal, fsNormal, fsNormalLine, vsSDF, getFsSDF, vsFinal, fsFinal, vsDummyMesh, fsDummyMesh, addSDFObject, deleteSDFObject, updateSDFShaderString} from "./src/shaders.js";
 import {mouseColorAndSDFIdColorCollideThrehold} from "./src/constants.js";
